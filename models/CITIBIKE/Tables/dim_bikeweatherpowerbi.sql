@@ -5,7 +5,7 @@ with Bikedata as (
 ),
 
 Weatherdata as (
-    SELECT * FROM {{ref('stg_Weatherdata')}}
+    SELECT * FROM {{ref('stg_Weatherdata2')}}
 ),
 
 MainDT as (
